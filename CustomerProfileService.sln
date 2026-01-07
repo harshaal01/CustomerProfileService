@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerProfileService.API", "CustomerProfileService.API\CustomerProfileService.API.csproj", "{D3FD15DF-58B5-4C7B-B5BA-533018B0D947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerProfileService.Domain", "CustomerProfileService.Domain\CustomerProfileService.Domain.csproj", "{EA02188E-9476-4B7B-93C9-8FD28275A8A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerProfileService.Infrastructure", "CustomerProfileService.Infrastructure\CustomerProfileService.Infrastructure.csproj", "{74809838-F73C-44F3-8B6E-4BD0ACC356A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3FD15DF-58B5-4C7B-B5BA-533018B0D947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3FD15DF-58B5-4C7B-B5BA-533018B0D947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3FD15DF-58B5-4C7B-B5BA-533018B0D947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3FD15DF-58B5-4C7B-B5BA-533018B0D947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA02188E-9476-4B7B-93C9-8FD28275A8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA02188E-9476-4B7B-93C9-8FD28275A8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA02188E-9476-4B7B-93C9-8FD28275A8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA02188E-9476-4B7B-93C9-8FD28275A8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74809838-F73C-44F3-8B6E-4BD0ACC356A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74809838-F73C-44F3-8B6E-4BD0ACC356A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74809838-F73C-44F3-8B6E-4BD0ACC356A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74809838-F73C-44F3-8B6E-4BD0ACC356A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

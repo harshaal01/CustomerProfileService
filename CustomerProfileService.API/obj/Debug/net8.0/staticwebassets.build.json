@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FFy8VPkAPaxDXVvqK5scnfsYxdydnxfsjLI5sf9h68k=",
+  "Source": "CustomerProfileService.API",
+  "BasePath": "_content/CustomerProfileService.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

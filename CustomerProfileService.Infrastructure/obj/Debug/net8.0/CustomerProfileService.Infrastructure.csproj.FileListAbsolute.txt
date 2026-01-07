@@ -1,0 +1,15 @@
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Infrastructure/bin/Debug/net8.0/CustomerProfileService.Infrastructure.deps.json
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Infrastructure/bin/Debug/net8.0/CustomerProfileService.Infrastructure.dll
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Infrastructure/bin/Debug/net8.0/CustomerProfileService.Infrastructure.pdb
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Infrastructure/bin/Debug/net8.0/CustomerProfileService.Domain.dll
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Infrastructure/bin/Debug/net8.0/CustomerProfileService.Domain.pdb
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Infrastructure/obj/Debug/net8.0/CustomerProfileService.Infrastructure.csproj.AssemblyReference.cache
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Infrastructure/obj/Debug/net8.0/CustomerProfileService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Infrastructure/obj/Debug/net8.0/CustomerProfileService.Infrastructure.AssemblyInfoInputs.cache
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Infrastructure/obj/Debug/net8.0/CustomerProfileService.Infrastructure.AssemblyInfo.cs
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Infrastructure/obj/Debug/net8.0/CustomerProfileService.Infrastructure.csproj.CoreCompileInputs.cache
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Infrastructure/obj/Debug/net8.0/Customer.C17ED572.Up2Date
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Infrastructure/obj/Debug/net8.0/CustomerProfileService.Infrastructure.dll
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Infrastructure/obj/Debug/net8.0/refint/CustomerProfileService.Infrastructure.dll
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Infrastructure/obj/Debug/net8.0/CustomerProfileService.Infrastructure.pdb
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Infrastructure/obj/Debug/net8.0/ref/CustomerProfileService.Infrastructure.dll

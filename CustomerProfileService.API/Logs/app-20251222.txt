@@ -1,0 +1,92 @@
+2025-12-22 18:32:43.651 +05:30 [INF] User profile is available. Using '/home/harshalaglawe-desktop/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-12-22 18:32:43.848 +05:30 [INF] Now listening on: http://localhost:5058
+2025-12-22 18:32:43.851 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-22 18:32:43.852 +05:30 [INF] Hosting environment: Development
+2025-12-22 18:32:43.852 +05:30 [INF] Content root path: /home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.API
+2025-12-22 18:33:05.510 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5058/api/auth/registerUser - application/json 82
+2025-12-22 18:33:05.555 +05:30 [INF] Executing endpoint 'CustomerProfileService.API.Controllers.AuthController.Register (CustomerProfileService.API)'
+2025-12-22 18:33:05.575 +05:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(CustomerProfileService.Domain.Entities.User) on controller CustomerProfileService.API.Controllers.AuthController (CustomerProfileService.API).
+2025-12-22 18:33:05.669 +05:30 [WRN] Validation failed while registering user. Email: harsh@gmail.com
+2025-12-22 18:33:05.676 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-12-22 18:33:05.682 +05:30 [INF] Executed action CustomerProfileService.API.Controllers.AuthController.Register (CustomerProfileService.API) in 103.0554ms
+2025-12-22 18:33:05.685 +05:30 [INF] Executed endpoint 'CustomerProfileService.API.Controllers.AuthController.Register (CustomerProfileService.API)'
+2025-12-22 18:33:05.687 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5058/api/auth/registerUser - 400 null text/plain; charset=utf-8 177.84ms
+2025-12-22 18:33:10.598 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5058/api/auth/registerUser - application/json 83
+2025-12-22 18:33:10.600 +05:30 [INF] Executing endpoint 'CustomerProfileService.API.Controllers.AuthController.Register (CustomerProfileService.API)'
+2025-12-22 18:33:10.600 +05:30 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(CustomerProfileService.Domain.Entities.User) on controller CustomerProfileService.API.Controllers.AuthController (CustomerProfileService.API).
+2025-12-22 18:33:11.363 +05:30 [INF] User registered successfully. Email: harsh@gmail.com
+2025-12-22 18:33:11.365 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-12-22 18:33:11.390 +05:30 [INF] Executed action CustomerProfileService.API.Controllers.AuthController.Register (CustomerProfileService.API) in 790.0129ms
+2025-12-22 18:33:11.391 +05:30 [INF] Executed endpoint 'CustomerProfileService.API.Controllers.AuthController.Register (CustomerProfileService.API)'
+2025-12-22 18:33:11.392 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5058/api/auth/registerUser - 200 null application/json; charset=utf-8 794.6325ms
+2025-12-22 18:33:20.471 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5058/api/auth/loginUser - application/json 60
+2025-12-22 18:33:20.474 +05:30 [INF] Executing endpoint 'CustomerProfileService.API.Controllers.AuthController.Login (CustomerProfileService.API)'
+2025-12-22 18:33:20.481 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CustomerProfileService.Domain.Entities.User) on controller CustomerProfileService.API.Controllers.AuthController (CustomerProfileService.API).
+2025-12-22 18:33:20.657 +05:30 [INF] User logged in successfully. Email: harsh@gmail.com
+2025-12-22 18:33:20.675 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-12-22 18:33:20.677 +05:30 [INF] Executed action CustomerProfileService.API.Controllers.AuthController.Login (CustomerProfileService.API) in 196.4812ms
+2025-12-22 18:33:20.677 +05:30 [INF] Executed endpoint 'CustomerProfileService.API.Controllers.AuthController.Login (CustomerProfileService.API)'
+2025-12-22 18:33:20.678 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5058/api/auth/loginUser - 200 null application/json; charset=utf-8 206.5858ms
+2025-12-22 18:33:36.266 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5058/api/Customers/GetAllCustomers - null null
+2025-12-22 18:33:36.305 +05:30 [INF] Executing endpoint 'CustomerProfileService.API.Controllers.CustomersController.Get (CustomerProfileService.API)'
+2025-12-22 18:33:36.309 +05:30 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller CustomerProfileService.API.Controllers.CustomersController (CustomerProfileService.API).
+2025-12-22 18:33:36.313 +05:30 [INF] GetAllAsync completed successfully. Records fetched: 9
+2025-12-22 18:33:36.314 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerProfileService.Domain.Entities.Customer, CustomerProfileService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-22 18:33:36.322 +05:30 [INF] Executed action CustomerProfileService.API.Controllers.CustomersController.Get (CustomerProfileService.API) in 13.7961ms
+2025-12-22 18:33:36.323 +05:30 [INF] Executed endpoint 'CustomerProfileService.API.Controllers.CustomersController.Get (CustomerProfileService.API)'
+2025-12-22 18:33:36.323 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5058/api/Customers/GetAllCustomers - 200 null application/json; charset=utf-8 57.3485ms
+2025-12-22 18:34:32.746 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5058/api/Customers/AddCustomer - application/json 99
+2025-12-22 18:34:32.748 +05:30 [INF] Executing endpoint 'CustomerProfileService.API.Controllers.CustomersController.Create (CustomerProfileService.API)'
+2025-12-22 18:34:32.752 +05:30 [INF] Route matched with {action = "Create", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CustomerProfileService.Domain.Entities.Customer) on controller CustomerProfileService.API.Controllers.CustomersController (CustomerProfileService.API).
+2025-12-22 18:34:32.768 +05:30 [INF] Customer created successfully. Email: raju@gmail.com
+2025-12-22 18:34:32.769 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-12-22 18:34:32.769 +05:30 [INF] Executed action CustomerProfileService.API.Controllers.CustomersController.Create (CustomerProfileService.API) in 16.7164ms
+2025-12-22 18:34:32.769 +05:30 [INF] Executed endpoint 'CustomerProfileService.API.Controllers.CustomersController.Create (CustomerProfileService.API)'
+2025-12-22 18:34:32.770 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5058/api/Customers/AddCustomer - 200 null application/json; charset=utf-8 23.917ms
+2025-12-22 18:34:36.321 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5058/api/Customers/GetAllCustomers - null null
+2025-12-22 18:34:36.324 +05:30 [INF] Executing endpoint 'CustomerProfileService.API.Controllers.CustomersController.Get (CustomerProfileService.API)'
+2025-12-22 18:34:36.324 +05:30 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller CustomerProfileService.API.Controllers.CustomersController (CustomerProfileService.API).
+2025-12-22 18:34:36.328 +05:30 [INF] GetAllAsync completed successfully. Records fetched: 10
+2025-12-22 18:34:36.328 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerProfileService.Domain.Entities.Customer, CustomerProfileService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-22 18:34:36.328 +05:30 [INF] Executed action CustomerProfileService.API.Controllers.CustomersController.Get (CustomerProfileService.API) in 3.8692ms
+2025-12-22 18:34:36.329 +05:30 [INF] Executed endpoint 'CustomerProfileService.API.Controllers.CustomersController.Get (CustomerProfileService.API)'
+2025-12-22 18:34:36.329 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5058/api/Customers/GetAllCustomers - 200 null application/json; charset=utf-8 7.5143ms
+2025-12-22 18:35:04.950 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5058/api/Customers/UpdateCustomer - application/json 116
+2025-12-22 18:35:04.952 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-12-22 18:35:04.955 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-12-22 18:35:04.955 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5058/api/Customers/UpdateCustomer - 401 0 null 4.9591ms
+2025-12-22 18:35:22.201 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5058/api/Customers/UpdateCustomer - application/json 116
+2025-12-22 18:35:22.203 +05:30 [INF] Executing endpoint 'CustomerProfileService.API.Controllers.CustomersController.Update (CustomerProfileService.API)'
+2025-12-22 18:35:22.207 +05:30 [INF] Route matched with {action = "Update", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(CustomerProfileService.Domain.Entities.Customer) on controller CustomerProfileService.API.Controllers.CustomersController (CustomerProfileService.API).
+2025-12-22 18:35:22.223 +05:30 [INF] Customer updated successfully. Id: 30
+2025-12-22 18:35:22.224 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-12-22 18:35:22.225 +05:30 [INF] Executed action CustomerProfileService.API.Controllers.CustomersController.Update (CustomerProfileService.API) in 18.0046ms
+2025-12-22 18:35:22.226 +05:30 [INF] Executed endpoint 'CustomerProfileService.API.Controllers.CustomersController.Update (CustomerProfileService.API)'
+2025-12-22 18:35:22.227 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5058/api/Customers/UpdateCustomer - 200 null application/json; charset=utf-8 25.5606ms
+2025-12-22 18:35:28.079 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5058/api/Customers/GetAllCustomers - null null
+2025-12-22 18:35:28.080 +05:30 [INF] Executing endpoint 'CustomerProfileService.API.Controllers.CustomersController.Get (CustomerProfileService.API)'
+2025-12-22 18:35:28.080 +05:30 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller CustomerProfileService.API.Controllers.CustomersController (CustomerProfileService.API).
+2025-12-22 18:35:28.082 +05:30 [INF] GetAllAsync completed successfully. Records fetched: 10
+2025-12-22 18:35:28.082 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CustomerProfileService.Domain.Entities.Customer, CustomerProfileService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-22 18:35:28.082 +05:30 [INF] Executed action CustomerProfileService.API.Controllers.CustomersController.Get (CustomerProfileService.API) in 2.6929ms
+2025-12-22 18:35:28.083 +05:30 [INF] Executed endpoint 'CustomerProfileService.API.Controllers.CustomersController.Get (CustomerProfileService.API)'
+2025-12-22 18:35:28.083 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5058/api/Customers/GetAllCustomers - 200 null application/json; charset=utf-8 4.3365ms
+2025-12-22 18:35:35.496 +05:30 [INF] Request starting HTTP/1.1 DELETE http://localhost:5058/api/Customers/DeleteCustomer/27 - null null
+2025-12-22 18:35:35.498 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-12-22 18:35:35.498 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-12-22 18:35:35.498 +05:30 [INF] Request finished HTTP/1.1 DELETE http://localhost:5058/api/Customers/DeleteCustomer/27 - 401 0 null 1.7516ms
+2025-12-22 18:35:48.312 +05:30 [INF] Request starting HTTP/1.1 DELETE http://localhost:5058/api/Customers/DeleteCustomer/27?Authorization=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiSGFyc2ggQSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImhhcnNoQGdtYWlsLmNvbSIsIklkIjoiMiIsImV4cCI6MTc2NjQxMjIwMH0.56_8WSCSDs-44tUx38j3OnlIfbV5O3xuzi1e1U9YLgI - null null
+2025-12-22 18:35:48.312 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-12-22 18:35:48.312 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-12-22 18:35:48.313 +05:30 [INF] Request finished HTTP/1.1 DELETE http://localhost:5058/api/Customers/DeleteCustomer/27?Authorization=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiSGFyc2ggQSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2VtYWlsYWRkcmVzcyI6ImhhcnNoQGdtYWlsLmNvbSIsIklkIjoiMiIsImV4cCI6MTc2NjQxMjIwMH0.56_8WSCSDs-44tUx38j3OnlIfbV5O3xuzi1e1U9YLgI - 401 0 null 0.9393ms
+2025-12-22 18:36:05.917 +05:30 [INF] Request starting HTTP/1.1 DELETE http://localhost:5058/api/Customers/DeleteCustomer/27 - null null
+2025-12-22 18:36:05.918 +05:30 [INF] Executing endpoint 'CustomerProfileService.API.Controllers.CustomersController.Delete (CustomerProfileService.API)'
+2025-12-22 18:36:05.922 +05:30 [INF] Route matched with {action = "Delete", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller CustomerProfileService.API.Controllers.CustomersController (CustomerProfileService.API).
+2025-12-22 18:36:05.935 +05:30 [INF] Customer deleted successfully. Id: 27
+2025-12-22 18:36:05.936 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-12-22 18:36:05.936 +05:30 [INF] Executed action CustomerProfileService.API.Controllers.CustomersController.Delete (CustomerProfileService.API) in 13.9434ms
+2025-12-22 18:36:05.936 +05:30 [INF] Executed endpoint 'CustomerProfileService.API.Controllers.CustomersController.Delete (CustomerProfileService.API)'
+2025-12-22 18:36:05.937 +05:30 [INF] Request finished HTTP/1.1 DELETE http://localhost:5058/api/Customers/DeleteCustomer/27 - 200 null application/json; charset=utf-8 19.4151ms

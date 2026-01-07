@@ -1,0 +1,11 @@
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Domain/bin/Debug/net8.0/CustomerProfileService.Domain.deps.json
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Domain/bin/Debug/net8.0/CustomerProfileService.Domain.dll
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Domain/bin/Debug/net8.0/CustomerProfileService.Domain.pdb
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Domain/obj/Debug/net8.0/CustomerProfileService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Domain/obj/Debug/net8.0/CustomerProfileService.Domain.AssemblyInfoInputs.cache
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Domain/obj/Debug/net8.0/CustomerProfileService.Domain.AssemblyInfo.cs
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Domain/obj/Debug/net8.0/CustomerProfileService.Domain.csproj.CoreCompileInputs.cache
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Domain/obj/Debug/net8.0/CustomerProfileService.Domain.dll
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Domain/obj/Debug/net8.0/refint/CustomerProfileService.Domain.dll
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Domain/obj/Debug/net8.0/CustomerProfileService.Domain.pdb
+/home/harshalaglawe-desktop/Desktop/Hello/CustomerProfileService/CustomerProfileService.Domain/obj/Debug/net8.0/ref/CustomerProfileService.Domain.dll
